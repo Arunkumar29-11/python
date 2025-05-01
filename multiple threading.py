@@ -8,7 +8,7 @@ class hello(thread):
 class hi(thread):
      def run(self):
         for i in range(5):
-            print("hi")
+            print("Hi")
             sleep(8)
 t1=hello()
 t2=hi()
