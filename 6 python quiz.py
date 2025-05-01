@@ -36,5 +36,5 @@ for i in range(4):
         print('better luck next time ! ')
     break
 
-print('total marks is :',mark)
+print('Total marks is :',mark)
 				    

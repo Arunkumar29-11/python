@@ -3,12 +3,12 @@ from threading import*
 class hello(thread):
     def run(self):
         for i in range(5):
-            print("hello")
+            print("Hello")
             sleep(5)
 class hi(thread):
      def run(self):
         for i in range(5):
-            print("hi")
+            print("Hi")
             sleep(8)
 t1=hello()
 t2=hi()
