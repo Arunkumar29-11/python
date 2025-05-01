@@ -3,7 +3,7 @@ from threading import*
 class hello(thread):
     def run(self):
         for i in range(5):
-            print("Hello")
+            print("HELLO")
             sleep(5)
 class hi(thread):
      def run(self):
